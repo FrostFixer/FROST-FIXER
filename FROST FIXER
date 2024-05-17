@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>شركة صيانة التكييف والأجهزة المنزلية</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            direction: rtl;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        .container {
+            padding: 20px;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        h2 {
+            color: #4CAF50;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        .contact-form {
+            background: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0 15px 0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .contact-form button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background-color: #45a049;
+        }
+        .social-links a {
+            margin: 0 10px;
+            color: #4CAF50;
+            text-decoration: none;
+        }
+        .social-links a:hover {
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>شركة صيانة التكييف والأجهزة المنزلية</h1>
+    </header>
+
+    <div class="container">
+        <div class="section">
+            <h2>نبذة عن الشركة</h2>
+            <p>نحن في شركة صيانة التكييف والأجهزة المنزلية نقدم أفضل الخدمات لصيانة وإصلاح جميع أنواع أجهزة التكييف والأجهزة المنزلية. فريقنا من الفنيين المهرة يضمن لك الخدمة المثالية والجودة العالية.</p>
+        </div>
+
+        <div class="section">
+            <h2>الخدمات المقدمة</h2>
+            <ul>
+                <li>صيانة أجهزة التكييف</li>
+                <li>إصلاح الأجهزة المنزلية</li>
+                <li>تركيب أجهزة التكييف</li>
+                <li>فحص دوري وصيانة وقائية</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>تفاصيل الاتصال</h2>
+            <p>يمكنك التواصل معنا عبر النموذج أدناه أو من خلال وسائل التواصل الاجتماعي.</p>
+        </div>
+
+        <div class="section contact-form">
+            <h2>نموذج الاتصال</h2>
+            <form action="#" method="post">
+                <input type="text" name="name" placeholder="الاسم" required>
+                <input type="email" name="email" placeholder="البريد الإلكتروني" required>
+                <textarea name="message" placeholder="رسالتك" rows="5" required></textarea>
+                <button type="submit">إرسال</button>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <div class="social-links">
+            <a href="#" target="_blank">فيسبوك</a>
+            <a href="#" target="_blank">تويتر</a>
+            <a href="#" target="_blank">إنستغرام</a>
+        </div>
+        <p>© 2024 شركة صيانة التكييف والأجهزة المنزلية. جميع الحقوق محفوظة.</p>
+    </footer>
+</body>
+</html>
